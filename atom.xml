@@ -72,38 +72,6 @@
   </entry>
   
   <entry>
-    <title>Sqlmap 简要使用</title>
-    <link href="https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/"/>
-    <id>https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/</id>
-    <published>2019-03-14T16:00:00.000Z</published>
-    <updated>2020-01-07T05:17:50.604Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="sqlmap-简要使用"><a href="#sqlmap-简要使用" class="headerlink" title="sqlmap 简要使用"></a>sqlmap 简要使用</h1><ul><li>查询现用的数据库<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; --current-db</code></li></ul></li><li>查询数据库中my_db所有表<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db --tables</code></li></ul></li><li>查询数据库my_db中thiskey表中所有列<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db -T thiskey --columns</code></li></ul></li><li>查询数据库my_db中thiskey表中k0y的值所有列<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db -T thiskey -C k0y --dump</code></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;sqlmap-简要使用&quot;&gt;&lt;a href=&quot;#sqlmap-简要使用&quot; class=&quot;headerlink&quot; title=&quot;sqlmap 简要使用&quot;&gt;&lt;/a&gt;sqlmap 简要使用&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;查询现用的数据库&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;pytho
-      
-    
-    </summary>
-    
-    
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="sqlmap" scheme="https://island123.github.io/tags/sqlmap/"/>
-    
-      <category term="sql注入" scheme="https://island123.github.io/tags/sql%E6%B3%A8%E5%85%A5/"/>
-    
-      <category term="数据库" scheme="https://island123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用buildroot交叉编译不同指令架构 gdb/gdbserver</title>
     <link href="https://island123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/"/>
     <id>https://island123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/</id>
@@ -134,6 +102,38 @@
       <category term="buildroot" scheme="https://island123.github.io/tags/buildroot/"/>
     
       <category term="mips64" scheme="https://island123.github.io/tags/mips64/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sqlmap 简要使用</title>
+    <link href="https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/"/>
+    <id>https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/</id>
+    <published>2019-03-14T16:00:00.000Z</published>
+    <updated>2020-01-07T05:17:50.604Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="sqlmap-简要使用"><a href="#sqlmap-简要使用" class="headerlink" title="sqlmap 简要使用"></a>sqlmap 简要使用</h1><ul><li>查询现用的数据库<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; --current-db</code></li></ul></li><li>查询数据库中my_db所有表<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db --tables</code></li></ul></li><li>查询数据库my_db中thiskey表中所有列<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db -T thiskey --columns</code></li></ul></li><li>查询数据库my_db中thiskey表中k0y的值所有列<ul><li><code>python .\sqlmap.py -u &quot;http://ctf5.shiyanbar.com/8/index.php?id=1&quot; -D my_db -T thiskey -C k0y --dump</code></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;sqlmap-简要使用&quot;&gt;&lt;a href=&quot;#sqlmap-简要使用&quot; class=&quot;headerlink&quot; title=&quot;sqlmap 简要使用&quot;&gt;&lt;/a&gt;sqlmap 简要使用&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;查询现用的数据库&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pytho
+      
+    
+    </summary>
+    
+    
+      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="sqlmap" scheme="https://island123.github.io/tags/sqlmap/"/>
+    
+      <category term="sql注入" scheme="https://island123.github.io/tags/sql%E6%B3%A8%E5%85%A5/"/>
+    
+      <category term="数据库" scheme="https://island123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -169,6 +169,67 @@
   </entry>
   
   <entry>
+    <title>Ubuntu安装Docker ce流程</title>
+    <link href="https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/"/>
+    <id>https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/</id>
+    <published>2019-03-13T16:00:00.000Z</published>
+    <updated>2020-01-07T05:17:27.431Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Ubuntu安装Docker-ce流程"><a href="#Ubuntu安装Docker-ce流程" class="headerlink" title="Ubuntu安装Docker ce流程"></a>Ubuntu安装Docker ce流程</h2><p>实际操作中发现，Docker对32位系统支持并不好，对于Win10自带的ubuntu貌似也会出一点问题。尝试之后本人决定使用Ubuntu 16.04。</p><h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h4><h5 id="卸载旧版本："><a href="#卸载旧版本：" class="headerlink" title="卸载旧版本："></a>卸载旧版本：</h5><blockquote><p>$ sudo apt-get remove docker <br>               docker-engine <br>               docker.io</p></blockquote><h5 id="Ubuntu-14-04-可选内核模块-16-04版本无需本步-："><a href="#Ubuntu-14-04-可选内核模块-16-04版本无需本步-：" class="headerlink" title="Ubuntu 14.04 可选内核模块(16.04版本无需本步)："></a>Ubuntu 14.04 可选内核模块(16.04版本无需本步)：</h5><blockquote><p>$ sudo apt-get update</p><p>$ sudo apt-get install <br>    linux-image-extra-$(uname -r) <br>    linux-image-extra-virtual</p></blockquote><h4 id="2-使用-APT安装"><a href="#2-使用-APT安装" class="headerlink" title="2. 使用 APT安装"></a>2. 使用 APT安装</h4><h5 id="添加https传输支持："><a href="#添加https传输支持：" class="headerlink" title="添加https传输支持："></a>添加https传输支持：</h5><blockquote><p>$ sudo apt-get update</p></blockquote><blockquote><p>$ sudo apt-get install \<br>    apt-transport-https \<br>    ca-certificates \<br>    curl \<br>    software-properties-common</p></blockquote><blockquote><p>$ curl -fsSL <a href="https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg</a> | sudo apt-key add -</p></blockquote><h5 id="向-source-list-中添加-Docker-软件源："><a href="#向-source-list-中添加-Docker-软件源：" class="headerlink" title="向 source.list 中添加 Docker 软件源："></a>向 source.list 中添加 Docker 软件源：</h5><blockquote><p>sudo add-apt-repository \<br>    “deb [arch=amd64] <a href="https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu</a> \<br>    $(lsb_release -cs) \<br>    stable”</p></blockquote><h4 id="3-安装-Docker-CE"><a href="#3-安装-Docker-CE" class="headerlink" title="3. 安装 Docker CE"></a>3. 安装 Docker CE</h4><blockquote><p>$ sudo apt-get update</p></blockquote><blockquote><p>$ sudo apt-get install docker-ce</p></blockquote><h4 id="4-启动docker-ce"><a href="#4-启动docker-ce" class="headerlink" title="4. 启动docker-ce"></a>4. 启动docker-ce</h4><blockquote><p>$ sudo systemctl enable docker<br>$ sudo systemctl start docker</p></blockquote><p>如果是14.04，使用以下命令启动：</p><blockquote><p>$ sudo service docker start</p></blockquote><h4 id="5-建立-docker-用户组"><a href="#5-建立-docker-用户组" class="headerlink" title="5. 建立 docker 用户组"></a>5. 建立 docker 用户组</h4><blockquote><p>$ sudo groupadd docker<br>$ sudo usermod -aG docker $USER</p></blockquote><h4 id="6-测试-Docker-是否安装正确"><a href="#6-测试-Docker-是否安装正确" class="headerlink" title="6. 测试 Docker 是否安装正确"></a>6. 测试 Docker 是否安装正确</h4><blockquote><p>$ sudo docker run hello-world</p><p>Unable to find image ‘hello-world:latest’ locally<br>latest: Pulling from library/hello-world<br>ca4f61b1923c: Pull complete<br>Digest: sha256:be0cd392e45be79ffeffa6b05338b98ebb16c87b255f48e297ec7f98e123905c<br>Status: Downloaded newer image for hello-world:latest</p><p>Hello from Docker!<br>This message shows that your installation appears to be working correctly.</p><p>To generate this message, Docker took the following steps:</p><ol><li>The Docker client contacted the Docker daemon.</li><li>The Docker daemon pulled the “hello-world” image from the Docker Hub.<br>(amd64)</li><li>The Docker daemon created a new container from that image which runs the<br>executable that produces the output you are currently reading.</li><li>The Docker daemon streamed that output to the Docker client, which sent it<br>to your terminal.</li></ol><p>To try something more ambitious, you can run an Ubuntu container with:<br> $ docker run -it ubuntu bash</p><p>Share images, automate workflows, and more with a free Docker ID:<br> <a href="https://cloud.docker.com/" target="_blank" rel="noopener">https://cloud.docker.com/</a></p><p>For more examples and ideas, visit:<br> <a href="https://docs.docker.com/engine/userguide/" target="_blank" rel="noopener">https://docs.docker.com/engine/userguide/</a><br>如果出现以上界面，说明安装成功。</p></blockquote><h4 id="6-镜像加速"><a href="#6-镜像加速" class="headerlink" title="6. 镜像加速"></a>6. 镜像加速</h4><ul><li>ubuntu 14.04:<br>编辑 /etc/default/docker 文件，在其中的 DOCKER_OPTS 中配置加速器地址,然后重新启动：  <blockquote><p>DOCKER_OPTS=”–registry-mirror=<a href="https://registry.docker-cn.com&quot;" target="_blank" rel="noopener">https://registry.docker-cn.com&quot;</a><br>$ sudo service docker restart</p></blockquote></li><li>ubuntu 16.04:<br>对于使用 systemd 的系统，请在 /etc/docker/daemon.json 中写入如下内容（如果文件不存在请新建该文件）:  <blockquote><p>{<br>  “registry-mirrors”: [</p><pre><code>&quot;https://registry.docker-cn.com&quot;</code></pre><p>  ]<br>}  </p></blockquote></li></ul><p>之后重新启动服务:  </p><blockquote><p>$ sudo systemctl daemon-reload<br>$ sudo systemctl restart docker</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Ubuntu安装Docker-ce流程&quot;&gt;&lt;a href=&quot;#Ubuntu安装Docker-ce流程&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu安装Docker ce流程&quot;&gt;&lt;/a&gt;Ubuntu安装Docker ce流程&lt;/h2&gt;&lt;p&gt;实际
+      
+    
+    </summary>
+    
+    
+      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Docker" scheme="https://island123.github.io/tags/Docker/"/>
+    
+      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用qemu建立多种架构虚拟机</title>
+    <link href="https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <id>https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
+    <published>2019-03-13T16:00:00.000Z</published>
+    <updated>2020-02-10T03:26:43.666Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>qemu可用于创建mips,mipsel，arm等架构虚拟机  。</p><h2 id="下载虚拟机内核文件系统文件"><a href="#下载虚拟机内核文件系统文件" class="headerlink" title="下载虚拟机内核文件系统文件"></a>下载虚拟机内核文件系统文件</h2><p><a href="https://people.debian.org/~aurel32/qemu/" target="_blank" rel="noopener">下载地址：https://people.debian.org/~aurel32/qemu/</a></p><h2 id="虚拟机开启命令"><a href="#虚拟机开启命令" class="headerlink" title="虚拟机开启命令"></a>虚拟机开启命令</h2><h3 id="mips"><a href="#mips" class="headerlink" title="mips"></a><strong>mips</strong></h3><p><strong>32位：</strong>  </p><p><code>qemu-system-mips -M malta -kernel vmlinux-3.2.0-4-4kc-malta -hda debian_wheezy_mips_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic -net tap -nographic</code> </p><p><strong>64位：</strong>  </p><p><code>qemu-system-mips64 -M malta -kernel vmlinux-3.2.0-4-5kc-malta -hda debian_wheezy_mips_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic -net tap -nographic</code></p><h3 id="mipsel"><a href="#mipsel" class="headerlink" title="mipsel"></a>mipsel</h3><p><strong>32位：</strong>  </p><p><code>qemu-system-mipsel -M malta -kernel vmlinux-3.2.0-4-4kc-malta -hda debian_wheezy_mipsel_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic -net tap -nographic</code></p><p><strong>64位</strong>  </p><p><code>qemu-system-mips64el -M malta -kernel vmlinux-3.2.0-4-5kc-malta -hda debian_wheezy_mipsel_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic -net tap -nographic</code></p><h3 id="armel"><a href="#armel" class="headerlink" title="armel"></a>armel</h3><p><code>qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append &quot;root=/dev/sda1&quot; -net nic -net tap -nographic</code></p><h3 id="armhf"><a href="#armhf" class="headerlink" title="armhf"></a>armhf</h3><p><code>qemu-system-arm -M vexpress-a9 -kernel vmlinuz-3.2.0-4-vexpress -initrd initrd.img-3.2.0-4-vexpress -drive if=sd,file=debian_wheezy_armhf_standard.qcow2 -append &quot;root=/dev/mmcblk0p2&quot; -net nic -net tap -nographic</code></p><h3 id="arm64"><a href="#arm64" class="headerlink" title="arm64"></a>arm64</h3><p><code>qemu-system-x86_64 -hda debian_wheezy_amd64_standard.qcow2 -net nic -net tap -nographic</code></p><h2 id="配置虚拟机网络"><a href="#配置虚拟机网络" class="headerlink" title="配置虚拟机网络"></a>配置虚拟机网络</h2><ul><li><p>安装依赖文件</p><p><code>sudo apt-get install bridge-utils uml-utilities</code></p></li><li><p>修改 ubuntu主机网络配置，将ubuntu主机系统中的网络接口配置文件 <strong>/etc/network/interfaces</strong> 修改为如下内容并保存、关闭。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">auto lo</span><br><span class="line">iface lo inet loopback</span><br><span class="line"> </span><br><span class="line">auto eth0 </span><br><span class="line">iface eth0 inet dhcp </span><br><span class="line"> </span><br><span class="line"><span class="comment">#auto br0 </span></span><br><span class="line">iface br0 inet dhcp </span><br><span class="line">  bridge_ports eth0 </span><br><span class="line">  bridge_maxwait 0</span><br></pre></td></tr></table></figure></div></li><li><p>创建QEMU的网络接口启动脚本，重启网络使配置生效。使用如下命令，在 <strong>/etc/qemu-ifup</strong>的后面加入以下内容。</p><p><code>sudo gedit /etc/qemu-ifup</code></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Executing /etc/qemu-ifup"</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Bringing <span class="variable">$1</span> for bridged mode..."</span></span><br><span class="line">sudo /sbin/ifconfig <span class="variable">$1</span> 0.0.0.0 promisc up</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Adding <span class="variable">$1</span> to br0..."</span></span><br><span class="line">sudo /sbin/brctl addif br0 <span class="variable">$1</span></span><br><span class="line">sleep 3</span><br></pre></td></tr></table></figure></div><p>保存 文件/etc/qemu-ifup 以后，赋予文件/etc/qemu-ifup 可执行权限，然后重启网络使所有的配置生效。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod a+x /etc/qemu-ifup</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 重启网络使配置生效</span></span><br><span class="line">$ sudo /etc/init.d/networking restart</span><br></pre></td></tr></table></figure></div></li><li><p>启动虚拟机</p><p>在本地ubuntu命令行终端，启动桥连网络。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ifdown eth0</span><br><span class="line">sudo ifup br0</span><br></pre></td></tr></table></figure></div><p>执行下面的命令启动虚拟机(将内核和文件系统替换为你的)</p><p><code>$ sudo qemu-system-mips -M malta -kernel vmlinux-2.6.32-5-4kc-malta -hda debian_squeeze_mips_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic,macaddr=00:16:3e:00:00:01 -net tap -nographic</code></p></li><li><p>配置虚拟机网络</p><p>使用 “<strong>ifconfig -a</strong>“ 命令，网络已经分配了IP地址.</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;qemu可用于创建mips,mipsel，arm等架构虚拟机  。&lt;/p&gt;
+&lt;h2 id=&quot;下载虚拟机内核文件系统文件&quot;&gt;&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+      <category term="物联网" scheme="https://island123.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    
+      <category term="qemu" scheme="https://island123.github.io/tags/qemu/"/>
+    
+  </entry>
+  
+  <entry>
     <title>retdec IDA mips反编译插件安装</title>
     <link href="https://island123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     <id>https://island123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
@@ -197,67 +258,6 @@
       <category term="mips" scheme="https://island123.github.io/tags/mips/"/>
     
       <category term="反编译" scheme="https://island123.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用qemu建立多种架构虚拟机</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
-    <published>2019-03-13T16:00:00.000Z</published>
-    <updated>2020-02-10T03:17:46.882Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>qemu可用于创建mips,mipsel，arm等架构虚拟机  。</p><h2 id="下载虚拟机内核文件系统文件"><a href="#下载虚拟机内核文件系统文件" class="headerlink" title="下载虚拟机内核文件系统文件"></a>下载虚拟机内核文件系统文件</h2><p><a href="https://people.debian.org/~aurel32/qemu/" target="_blank" rel="noopener">下载地址：https://people.debian.org/~aurel32/qemu/</a></p><h2 id="虚拟机开启命令"><a href="#虚拟机开启命令" class="headerlink" title="虚拟机开启命令"></a>虚拟机开启命令</h2><h3 id="mips"><a href="#mips" class="headerlink" title="mips"></a><strong>mips</strong></h3><p><strong>32位：</strong>  </p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><figcaption><span>-M malta -kernel vmlinux-3.2.0-4-4kc-malta -hda debian_wheezy_mips_standard.qcow2 -append "root</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">**64位：**  </span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;qemu-system-mips64 -M malta -kernel vmlinux-3.2.0-4-5kc-malta -hda debian_wheezy_mips_standard.qcow2 -append &quot;root&#x3D;&#x2F;dev&#x2F;sda1 console&#x3D;tty0&quot; -net nic -net tap -nographic</span><br></pre></td></tr></table></figure></div><h3 id="mipsel"><a href="#mipsel" class="headerlink" title="mipsel"></a>mipsel</h3><p><strong>32位：</strong>  </p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><figcaption><span>-M malta -kernel vmlinux-3.2.0-4-4kc-malta -hda debian_wheezy_mipsel_standard.qcow2 -append "root</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">**64位**  </span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;qemu-system-mips64el -M malta -kernel vmlinux-3.2.0-4-5kc-malta -hda debian_wheezy_mipsel_standard.qcow2 -append &quot;root&#x3D;&#x2F;dev&#x2F;sda1 console&#x3D;tty0&quot; -net nic -net tap -nographic</span><br></pre></td></tr></table></figure></div><h3 id="armel"><a href="#armel" class="headerlink" title="armel"></a>armel</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><figcaption><span>-M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### armhf</span><br><span class="line">&#96;&#96;&#96;qemu-system-arm -M vexpress-a9 -kernel vmlinuz-3.2.0-4-vexpress -initrd initrd.img-3.2.0-4-vexpress -drive if&#x3D;sd,file&#x3D;debian_wheezy_armhf_standard.qcow2 -append &quot;root&#x3D;&#x2F;dev&#x2F;mmcblk0p2&quot; -net nic -net tap -nographic</span><br></pre></td></tr></table></figure></div><h3 id="arm64"><a href="#arm64" class="headerlink" title="arm64"></a>arm64</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><figcaption><span>-hda debian_wheezy_amd64_standard.qcow2 -net nic -net tap -nographic```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 配置虚拟机网络</span><br><span class="line"></span><br><span class="line">* 安装依赖文件</span><br><span class="line"></span><br><span class="line">  &#96;sudo apt-get install bridge-utils uml-utilities&#96;</span><br><span class="line"></span><br><span class="line">* 修改 ubuntu主机网络配置，将ubuntu主机系统中的网络接口配置文件 **&#x2F;etc&#x2F;network&#x2F;interfaces** 修改为如下内容并保存、关闭。</span><br><span class="line"></span><br><span class="line">  &#96;&#96;&#96;bash</span><br><span class="line">  </span><br><span class="line">  auto lo</span><br><span class="line">  iface lo inet loopback</span><br><span class="line">   </span><br><span class="line">  auto eth0 </span><br><span class="line">  iface eth0 inet dhcp </span><br><span class="line">   </span><br><span class="line">  #auto br0 </span><br><span class="line">  iface br0 inet dhcp </span><br><span class="line">    bridge_ports eth0 </span><br><span class="line">    bridge_maxwait 0</span><br></pre></td></tr></table></figure></div><ul><li><p>创建QEMU的网络接口启动脚本，重启网络使配置生效。使用如下命令，在 <strong>/etc/qemu-ifup</strong>的后面加入以下内容。</p><p><code>sudo gedit /etc/qemu-ifup</code></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Executing /etc/qemu-ifup"</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Bringing <span class="variable">$1</span> for bridged mode..."</span></span><br><span class="line">sudo /sbin/ifconfig <span class="variable">$1</span> 0.0.0.0 promisc up</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Adding <span class="variable">$1</span> to br0..."</span></span><br><span class="line">sudo /sbin/brctl addif br0 <span class="variable">$1</span></span><br><span class="line">sleep 3</span><br></pre></td></tr></table></figure></div><p>保存 文件/etc/qemu-ifup 以后，赋予文件/etc/qemu-ifup 可执行权限，然后重启网络使所有的配置生效。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod a+x /etc/qemu-ifup</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 重启网络使配置生效</span></span><br><span class="line">$ sudo /etc/init.d/networking restart</span><br></pre></td></tr></table></figure></div></li><li><p>启动虚拟机</p><p>在本地ubuntu命令行终端，启动桥连网络。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ifdown eth0</span><br><span class="line">sudo ifup br0</span><br></pre></td></tr></table></figure></div><p>执行下面的命令启动虚拟机(将内核和文件系统替换为你的)</p><p><code>$ sudo qemu-system-mips -M malta -kernel vmlinux-2.6.32-5-4kc-malta -hda debian_squeeze_mips_standard.qcow2 -append &quot;root=/dev/sda1 console=tty0&quot; -net nic,macaddr=00:16:3e:00:00:01 -net tap -nographic</code></p></li><li><p>配置虚拟机网络</p><p>使用 “<strong>ifconfig -a</strong>“ 命令，网络已经分配了IP地址.</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;qemu可用于创建mips,mipsel，arm等架构虚拟机  。&lt;/p&gt;
-&lt;h2 id=&quot;下载虚拟机内核文件系统文件&quot;&gt;&lt;a href=&quot;
-      
-    
-    </summary>
-    
-    
-    
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-      <category term="物联网" scheme="https://island123.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
-    
-      <category term="qemu" scheme="https://island123.github.io/tags/qemu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu安装Docker ce流程</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/</id>
-    <published>2019-03-13T16:00:00.000Z</published>
-    <updated>2020-01-07T05:17:27.431Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Ubuntu安装Docker-ce流程"><a href="#Ubuntu安装Docker-ce流程" class="headerlink" title="Ubuntu安装Docker ce流程"></a>Ubuntu安装Docker ce流程</h2><p>实际操作中发现，Docker对32位系统支持并不好，对于Win10自带的ubuntu貌似也会出一点问题。尝试之后本人决定使用Ubuntu 16.04。</p><h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h4><h5 id="卸载旧版本："><a href="#卸载旧版本：" class="headerlink" title="卸载旧版本："></a>卸载旧版本：</h5><blockquote><p>$ sudo apt-get remove docker <br>               docker-engine <br>               docker.io</p></blockquote><h5 id="Ubuntu-14-04-可选内核模块-16-04版本无需本步-："><a href="#Ubuntu-14-04-可选内核模块-16-04版本无需本步-：" class="headerlink" title="Ubuntu 14.04 可选内核模块(16.04版本无需本步)："></a>Ubuntu 14.04 可选内核模块(16.04版本无需本步)：</h5><blockquote><p>$ sudo apt-get update</p><p>$ sudo apt-get install <br>    linux-image-extra-$(uname -r) <br>    linux-image-extra-virtual</p></blockquote><h4 id="2-使用-APT安装"><a href="#2-使用-APT安装" class="headerlink" title="2. 使用 APT安装"></a>2. 使用 APT安装</h4><h5 id="添加https传输支持："><a href="#添加https传输支持：" class="headerlink" title="添加https传输支持："></a>添加https传输支持：</h5><blockquote><p>$ sudo apt-get update</p></blockquote><blockquote><p>$ sudo apt-get install \<br>    apt-transport-https \<br>    ca-certificates \<br>    curl \<br>    software-properties-common</p></blockquote><blockquote><p>$ curl -fsSL <a href="https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg</a> | sudo apt-key add -</p></blockquote><h5 id="向-source-list-中添加-Docker-软件源："><a href="#向-source-list-中添加-Docker-软件源：" class="headerlink" title="向 source.list 中添加 Docker 软件源："></a>向 source.list 中添加 Docker 软件源：</h5><blockquote><p>sudo add-apt-repository \<br>    “deb [arch=amd64] <a href="https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu</a> \<br>    $(lsb_release -cs) \<br>    stable”</p></blockquote><h4 id="3-安装-Docker-CE"><a href="#3-安装-Docker-CE" class="headerlink" title="3. 安装 Docker CE"></a>3. 安装 Docker CE</h4><blockquote><p>$ sudo apt-get update</p></blockquote><blockquote><p>$ sudo apt-get install docker-ce</p></blockquote><h4 id="4-启动docker-ce"><a href="#4-启动docker-ce" class="headerlink" title="4. 启动docker-ce"></a>4. 启动docker-ce</h4><blockquote><p>$ sudo systemctl enable docker<br>$ sudo systemctl start docker</p></blockquote><p>如果是14.04，使用以下命令启动：</p><blockquote><p>$ sudo service docker start</p></blockquote><h4 id="5-建立-docker-用户组"><a href="#5-建立-docker-用户组" class="headerlink" title="5. 建立 docker 用户组"></a>5. 建立 docker 用户组</h4><blockquote><p>$ sudo groupadd docker<br>$ sudo usermod -aG docker $USER</p></blockquote><h4 id="6-测试-Docker-是否安装正确"><a href="#6-测试-Docker-是否安装正确" class="headerlink" title="6. 测试 Docker 是否安装正确"></a>6. 测试 Docker 是否安装正确</h4><blockquote><p>$ sudo docker run hello-world</p><p>Unable to find image ‘hello-world:latest’ locally<br>latest: Pulling from library/hello-world<br>ca4f61b1923c: Pull complete<br>Digest: sha256:be0cd392e45be79ffeffa6b05338b98ebb16c87b255f48e297ec7f98e123905c<br>Status: Downloaded newer image for hello-world:latest</p><p>Hello from Docker!<br>This message shows that your installation appears to be working correctly.</p><p>To generate this message, Docker took the following steps:</p><ol><li>The Docker client contacted the Docker daemon.</li><li>The Docker daemon pulled the “hello-world” image from the Docker Hub.<br>(amd64)</li><li>The Docker daemon created a new container from that image which runs the<br>executable that produces the output you are currently reading.</li><li>The Docker daemon streamed that output to the Docker client, which sent it<br>to your terminal.</li></ol><p>To try something more ambitious, you can run an Ubuntu container with:<br> $ docker run -it ubuntu bash</p><p>Share images, automate workflows, and more with a free Docker ID:<br> <a href="https://cloud.docker.com/" target="_blank" rel="noopener">https://cloud.docker.com/</a></p><p>For more examples and ideas, visit:<br> <a href="https://docs.docker.com/engine/userguide/" target="_blank" rel="noopener">https://docs.docker.com/engine/userguide/</a><br>如果出现以上界面，说明安装成功。</p></blockquote><h4 id="6-镜像加速"><a href="#6-镜像加速" class="headerlink" title="6. 镜像加速"></a>6. 镜像加速</h4><ul><li>ubuntu 14.04:<br>编辑 /etc/default/docker 文件，在其中的 DOCKER_OPTS 中配置加速器地址,然后重新启动：  <blockquote><p>DOCKER_OPTS=”–registry-mirror=<a href="https://registry.docker-cn.com&quot;" target="_blank" rel="noopener">https://registry.docker-cn.com&quot;</a><br>$ sudo service docker restart</p></blockquote></li><li>ubuntu 16.04:<br>对于使用 systemd 的系统，请在 /etc/docker/daemon.json 中写入如下内容（如果文件不存在请新建该文件）:  <blockquote><p>{<br>  “registry-mirrors”: [</p><pre><code>&quot;https://registry.docker-cn.com&quot;</code></pre><p>  ]<br>}  </p></blockquote></li></ul><p>之后重新启动服务:  </p><blockquote><p>$ sudo systemctl daemon-reload<br>$ sudo systemctl restart docker</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Ubuntu安装Docker-ce流程&quot;&gt;&lt;a href=&quot;#Ubuntu安装Docker-ce流程&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu安装Docker ce流程&quot;&gt;&lt;/a&gt;Ubuntu安装Docker ce流程&lt;/h2&gt;&lt;p&gt;实际
-      
-    
-    </summary>
-    
-    
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="Docker" scheme="https://island123.github.io/tags/Docker/"/>
-    
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
