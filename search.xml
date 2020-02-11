@@ -4,37 +4,6 @@
   
     
     <entry>
-      <title>使用Docker运行qemu arm容器</title>
-      <link href="/2020/01/15/Docker%E8%BF%90%E8%A1%8Cqemu%20arm%E5%AE%B9%E5%99%A8%20/"/>
-      <url>/2020/01/15/Docker%E8%BF%90%E8%A1%8Cqemu%20arm%E5%AE%B9%E5%99%A8%20/</url>
-      
-        <content type="html"><![CDATA[<h1 id="使用Docker运行qemu-arm容器"><a href="#使用Docker运行qemu-arm容器" class="headerlink" title="使用Docker运行qemu arm容器"></a>使用Docker运行qemu arm容器</h1><p>使用<code>qemu</code>运行<code>arm</code>系统的教程之前发过了，但是在装了<code>docker</code>以后<code>arm</code>系统就会出一些问题没法连接外网，初步推断应该是路由的问题，想到另外一种替代方案，使用<code>Docker</code>来运行<code>qemu arm</code>容器。</p><h2 id="安装qemu环境"><a href="#安装qemu环境" class="headerlink" title="安装qemu环境"></a>安装qemu环境</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install qemu qemu-user-static qemu-system uml-utilities bridge-utils</span><br></pre></td></tr></table></figure></div><h2 id="下载armhf-ubuntu镜像"><a href="#下载armhf-ubuntu镜像" class="headerlink" title="下载armhf-ubuntu镜像"></a>下载<code>armhf-ubuntu</code>镜像</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull ioft/armhf-ubuntu:trusty</span><br></pre></td></tr></table></figure></div><h2 id="使用docker运行armhf-buntu容器"><a href="#使用docker运行armhf-buntu容器" class="headerlink" title="使用docker运行armhf-buntu容器"></a>使用docker运行<code>armhf-buntu</code>容器</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run -it --privileged -v /usr/bin/qemu-arm-static:/usr/bin/qemu-arm-static ioft/armhf-ubuntu:trusty /bin/bash</span><br></pre></td></tr></table></figure></div><p>进入容器查看：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ sudo docker <span class="built_in">exec</span> -it 240f58b9b3ba bash</span><br><span class="line">root@240f58b9b3ba:/<span class="comment"># uname -a</span></span><br><span class="line">Linux 240f58b9b3ba 4.4.0-171-generic <span class="comment">#200-Ubuntu SMP Tue Dec 3 11:04:55 UTC 2019 armv7l armv7l armv7l GNU/Linux</span></span><br><span class="line">root@240f58b9b3ba:/<span class="comment"># file /bin/ls</span></span><br><span class="line">/bin/ls: ELF 32-bit LSB  executable, ARM, EABI5 version 1 (SYSV), dynamically linked (uses shared libs), <span class="keyword">for</span> GNU/Linux 2.6.32, BuildID[sha1]=74480e1a4f4c0aebebd4db4f5405e720cf4b8de5, stripped</span><br></pre></td></tr></table></figure></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 环境搭建 </tag>
-            
-            <tag> 虚拟机 </tag>
-            
-            <tag> qemu </tag>
-            
-            <tag> docker </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2019-06-11-使用SSH搭建代理及端口转发</title>
       <link href="/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/"/>
       <url>/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</url>
