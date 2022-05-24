@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Island&#39;s Blog</title>
+  <title>1s1and&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://island123.github.io/"/>
+  <link href="https://1s1and123.github.io/"/>
   <updated>2020-02-21T16:44:00.801Z</updated>
-  <id>https://island123.github.io/</id>
+  <id>https://1s1and123.github.io/</id>
   
   <author>
-    <name>Island</name>
+    <name>1s1and</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>IOT环境搭建--如何使用qemu运行各种指令架构程序</title>
-    <link href="https://island123.github.io/2020/02/12/IOT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA--%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8qemu%E8%BF%90%E8%A1%8C%E5%90%84%E7%A7%8D%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84%E7%A8%8B%E5%BA%8F/"/>
-    <id>https://island123.github.io/2020/02/12/IOT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA--%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8qemu%E8%BF%90%E8%A1%8C%E5%90%84%E7%A7%8D%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84%E7%A8%8B%E5%BA%8F/</id>
+    <link href="https://1s1and123.github.io/2020/02/12/IOT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA--%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8qemu%E8%BF%90%E8%A1%8C%E5%90%84%E7%A7%8D%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84%E7%A8%8B%E5%BA%8F/"/>
+    <id>https://1s1and123.github.io/2020/02/12/IOT%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA--%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8qemu%E8%BF%90%E8%A1%8C%E5%90%84%E7%A7%8D%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84%E7%A8%8B%E5%BA%8F/</id>
     <published>2020-02-11T16:00:00.000Z</published>
     <updated>2020-02-21T16:44:00.801Z</updated>
     
@@ -35,21 +35,21 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <category term="环境搭建" scheme="https://1s1and123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="qemu" scheme="https://island123.github.io/tags/qemu/"/>
+      <category term="qemu" scheme="https://1s1and123.github.io/tags/qemu/"/>
     
-      <category term="docker" scheme="https://island123.github.io/tags/docker/"/>
+      <category term="docker" scheme="https://1s1and123.github.io/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>2019-06-11-使用SSH搭建代理及端口转发</title>
-    <link href="https://island123.github.io/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/"/>
-    <id>https://island123.github.io/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</id>
+    <link href="https://1s1and123.github.io/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/"/>
+    <id>https://1s1and123.github.io/2020/01/07/2019-06-11-%E4%BD%BF%E7%94%A8SSH%E6%90%AD%E5%BB%BA%E4%BB%A3%E7%90%86%E5%8F%8A%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</id>
     <published>2020-01-07T04:42:43.892Z</published>
     <updated>2020-01-07T05:18:04.636Z</updated>
     
@@ -71,8 +71,8 @@
   
   <entry>
     <title>Sqlmap 简要使用</title>
-    <link href="https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/"/>
-    <id>https://island123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/</id>
+    <link href="https://1s1and123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/"/>
+    <id>https://1s1and123.github.io/2019/03/15/2019-03-15-Sqlmap-%E7%AE%80%E8%A6%81%E4%BD%BF%E7%94%A8/</id>
     <published>2019-03-14T16:00:00.000Z</published>
     <updated>2020-01-07T05:17:50.604Z</updated>
     
@@ -90,21 +90,21 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="sqlmap" scheme="https://island123.github.io/tags/sqlmap/"/>
+      <category term="sqlmap" scheme="https://1s1and123.github.io/tags/sqlmap/"/>
     
-      <category term="sql注入" scheme="https://island123.github.io/tags/sql%E6%B3%A8%E5%85%A5/"/>
+      <category term="sql注入" scheme="https://1s1and123.github.io/tags/sql%E6%B3%A8%E5%85%A5/"/>
     
-      <category term="数据库" scheme="https://island123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://1s1and123.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>使用buildroot交叉编译不同指令架构 gdb/gdbserver</title>
-    <link href="https://island123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/"/>
-    <id>https://island123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/</id>
+    <link href="https://1s1and123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/"/>
+    <id>https://1s1and123.github.io/2019/03/15/2019-03-15-%E4%BD%BF%E7%94%A8buildroot%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E4%B8%8D%E5%90%8C%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84-gdbgdbserver/</id>
     <published>2019-03-14T16:00:00.000Z</published>
     <updated>2020-01-07T05:17:54.359Z</updated>
     
@@ -120,25 +120,25 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="gdb" scheme="https://island123.github.io/tags/gdb/"/>
+      <category term="gdb" scheme="https://1s1and123.github.io/tags/gdb/"/>
     
-      <category term="gdbserver" scheme="https://island123.github.io/tags/gdbserver/"/>
+      <category term="gdbserver" scheme="https://1s1and123.github.io/tags/gdbserver/"/>
     
-      <category term="交叉编译" scheme="https://island123.github.io/tags/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/"/>
+      <category term="交叉编译" scheme="https://1s1and123.github.io/tags/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/"/>
     
-      <category term="buildroot" scheme="https://island123.github.io/tags/buildroot/"/>
+      <category term="buildroot" scheme="https://1s1and123.github.io/tags/buildroot/"/>
     
-      <category term="mips64" scheme="https://island123.github.io/tags/mips64/"/>
+      <category term="mips64" scheme="https://1s1and123.github.io/tags/mips64/"/>
     
   </entry>
   
   <entry>
     <title>Docker使用简要教程</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-Docker%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81%E6%95%99%E7%A8%8B/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-Docker%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81%E6%95%99%E7%A8%8B/</id>
+    <link href="https://1s1and123.github.io/2019/03/14/2019-03-14-Docker%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81%E6%95%99%E7%A8%8B/"/>
+    <id>https://1s1and123.github.io/2019/03/14/2019-03-14-Docker%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81%E6%95%99%E7%A8%8B/</id>
     <published>2019-03-13T16:00:00.000Z</published>
     <updated>2020-01-07T05:16:49.133Z</updated>
     
@@ -155,21 +155,21 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Docker" scheme="https://island123.github.io/tags/Docker/"/>
+      <category term="Docker" scheme="https://1s1and123.github.io/tags/Docker/"/>
     
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <category term="环境搭建" scheme="https://1s1and123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="虚拟机" scheme="https://1s1and123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu安装Docker ce流程</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/</id>
+    <link href="https://1s1and123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/"/>
+    <id>https://1s1and123.github.io/2019/03/14/2019-03-14-Ubuntu%E5%AE%89%E8%A3%85Docker-ce%E6%B5%81%E7%A8%8B/</id>
     <published>2019-03-13T16:00:00.000Z</published>
     <updated>2020-01-07T05:17:27.431Z</updated>
     
@@ -185,21 +185,21 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Docker" scheme="https://island123.github.io/tags/Docker/"/>
+      <category term="Docker" scheme="https://1s1and123.github.io/tags/Docker/"/>
     
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <category term="环境搭建" scheme="https://1s1and123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="虚拟机" scheme="https://1s1and123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>QNAP固件解压及动态调试辅助脚本</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-QNAP%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-QNAP%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/</id>
+    <link href="https://1s1and123.github.io/2019/03/14/2019-03-14-QNAP%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/"/>
+    <id>https://1s1and123.github.io/2019/03/14/2019-03-14-QNAP%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B%E5%8F%8A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/</id>
     <published>2019-03-13T16:00:00.000Z</published>
     <updated>2020-01-07T05:17:12.236Z</updated>
     
@@ -215,23 +215,23 @@
     </summary>
     
     
-      <category term="设备分析" scheme="https://island123.github.io/categories/%E8%AE%BE%E5%A4%87%E5%88%86%E6%9E%90/"/>
+      <category term="设备分析" scheme="https://1s1and123.github.io/categories/%E8%AE%BE%E5%A4%87%E5%88%86%E6%9E%90/"/>
     
     
-      <category term="QNAP" scheme="https://island123.github.io/tags/QNAP/"/>
+      <category term="QNAP" scheme="https://1s1and123.github.io/tags/QNAP/"/>
     
-      <category term="动态调试" scheme="https://island123.github.io/tags/%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95/"/>
+      <category term="动态调试" scheme="https://1s1and123.github.io/tags/%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95/"/>
     
-      <category term="辅助脚本" scheme="https://island123.github.io/tags/%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/"/>
+      <category term="辅助脚本" scheme="https://1s1and123.github.io/tags/%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/"/>
     
-      <category term="固件解压" scheme="https://island123.github.io/tags/%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B/"/>
+      <category term="固件解压" scheme="https://1s1and123.github.io/tags/%E5%9B%BA%E4%BB%B6%E8%A7%A3%E5%8E%8B/"/>
     
   </entry>
   
   <entry>
     <title>retdec IDA mips反编译插件安装</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
+    <link href="https://1s1and123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <id>https://1s1and123.github.io/2019/03/14/2019-03-14-retdec-IDA-mips%E5%8F%8D%E7%BC%96%E8%AF%91%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
     <published>2019-03-13T16:00:00.000Z</published>
     <updated>2020-01-07T05:17:22.712Z</updated>
     
@@ -249,21 +249,21 @@
     </summary>
     
     
-      <category term="工具学习" scheme="https://island123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
+      <category term="工具学习" scheme="https://1s1and123.github.io/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="IDA plugin" scheme="https://island123.github.io/tags/IDA-plugin/"/>
+      <category term="IDA plugin" scheme="https://1s1and123.github.io/tags/IDA-plugin/"/>
     
-      <category term="mips" scheme="https://island123.github.io/tags/mips/"/>
+      <category term="mips" scheme="https://1s1and123.github.io/tags/mips/"/>
     
-      <category term="反编译" scheme="https://island123.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
+      <category term="反编译" scheme="https://1s1and123.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
     
   </entry>
   
   <entry>
     <title>使用qemu建立多种架构虚拟机</title>
-    <link href="https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    <id>https://island123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
+    <link href="https://1s1and123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <id>https://1s1and123.github.io/2019/03/14/2019-03-14-%E4%BD%BF%E7%94%A8qemu%E5%BB%BA%E7%AB%8B%E5%A4%9A%E7%A7%8D%E6%9E%B6%E6%9E%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</id>
     <published>2019-03-13T16:00:00.000Z</published>
     <updated>2020-02-10T03:26:43.666Z</updated>
     
@@ -281,13 +281,13 @@
     
     
     
-      <category term="环境搭建" scheme="https://island123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <category term="环境搭建" scheme="https://1s1and123.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="虚拟机" scheme="https://island123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="虚拟机" scheme="https://1s1and123.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-      <category term="物联网" scheme="https://island123.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+      <category term="物联网" scheme="https://1s1and123.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
     
-      <category term="qemu" scheme="https://island123.github.io/tags/qemu/"/>
+      <category term="qemu" scheme="https://1s1and123.github.io/tags/qemu/"/>
     
   </entry>
   
